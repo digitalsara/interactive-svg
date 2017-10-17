@@ -7,7 +7,7 @@
 
 .left-eye,
 .right-eye {
-  animation: eyes 3s linear infinite;
+  animation: eyes 3s linear infinite alternate;
 }
 
 @keyframes eyes {
