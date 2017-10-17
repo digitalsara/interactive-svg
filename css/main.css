@@ -4,3 +4,19 @@
   transform-origin: center center;
   transition: all .5s linear;
 }
+
+.left-eye,
+.right-eye {
+  animation: eyes 3s linear infinite;
+}
+
+@keyframes eyes {
+
+  0% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(-10px);
+  }
+}
